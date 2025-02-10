@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jorge Calderon - web dev</title>
+  <link rel="stylesheet" href="css/cv_styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="cv_images/cloud.png" alt="cloud-img">
+    <h1>I'm Jorge.</h1>
+    <h2>a <span class="pro">C#, Javascript and Go</span> programmer and web developer.</h2>
+    <img class="bottom-cloud" src="cv_images/cloud.png" alt="cloud-img">
+    <img src="cv_images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="cv_images/cropped.jpeg" alt="my photo ">
+      <h2>Hello, I'm 58 years old self-taught person.</h2>
+      <p class= "intro">I ❤️ classic cars, going for a walk outdoors, and drinking coffee.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="image-pc1" src="cv_images/computer.png" alt="image computer">
+        <h3>Design, Programming and Development</h3>
+        <p>C# for video game programming in Unity.
+          Javascript with nodejs, express, ejs, or react, for web pages or billing applications for small and medium-sized businesses. 
+          Goland for creating accounting applications simulating Laravel using MVC development. Mysql, mongodb, postgress databases.
+          Docker containers.</p>
+      </div>
+      <div class="skill-row">
+        <img class="image-pc2" src="cv_images/computer.gif" alt="computer2 image">
+        <h3>Hot Knowledge Challenge</h3>
+        <p>I like programming and learning everything related to the subject. I am currently taking a Kotlin course using the Android Studio IDE to recreate the creation of a Blog page and application. 
+          I have basic knowledge of Figma, and graphic design among others. I am the creator of the website https://www.gamerheaven.online.</p>
+      </div>
+    </div>
+    <hr>
+    
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <div class="container">
+        <div class="hot-chillies">
+          <img class="image-pc2" src="cv_images/chillies.png" alt="computer2 image">
+        </div>
+      </div>
+      <h3>If you love hot wings as much as I do.</h3>
+      
+      <p class="contact-message">Assertive, proactive, self-taught, responsible, committed, polite, respectful, open-minded, 
+       curious, set high goals, work for results, looking for solutions.</p>
+      <a class="btn" href="javascript:void(0);" onclick="showContactInfo()">CONTACT ME</a>
+       <div id="contact-info" class="contact-info">
+           <p>WhatsApp Phone: +502 4793-2727</p>
+           <p>Email: jscs99@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="tindog.html">Webpage_Demo</a>
+    <a class="footer-link" href="dicee.html">Dicee game</a>
+    <a class="footer-link" href="drumkit.html">Drum Kit game</a>
+    <a class="footer-link" href="https://t2cgames.itch.io/">myItch.io</a>
+    <a class="footer-link" href="https://www.gamerheaven.online/">Gamerheaven Online</a>
+    <p class="copyright">© 2022 Jorge Calderón. Guatemala, C.A.</p>
+  </div>
+ 
+ <script>
+    function showContactInfo() {
+        var info = document.getElementById("contact-info");
+        info.style.display = "block";
+        setTimeout(function() {
+            info.style.display = "none";
+        }, 5000); // Mostrar por 5 segundos
+    }
+</script>
+</body>
+
+</html>
